@@ -1,75 +1,110 @@
-<p align="center"><img width=55% height=55% src="docsimg/jbpm_logo_450px.png"></p>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[![GitHub Stars](https://img.shields.io/github/stars/kiegroup/jbpm.svg)](https://github.com/kiegroup/jbpm/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/kiegroup/jbpm.svg)](https://github.com/kiegroup/jbpm/network/members)
-[![Pull Requests](https://img.shields.io/github/issues-pr/kiegroup/jbpm.svg?style=flat-square)](https://github.com/kiegroup/jbpm/pulls)
-[![Contributors](https://img.shields.io/github/contributors/kiegroup/jbpm.svg?style=flat-square)](https://github.com/kiegroup/jbpm/graphs/contributors)
-[![License](https://img.shields.io/github/license/kiegroup/jbpm.svg)](https://github.com/kiegroup/jbpm/blob/main/LICENSE-ASL-2.0.txt)
-[![Twitter Follow](https://img.shields.io/twitter/follow/jbossjbpm.svg?label=Follow&style=social)](https://twitter.com/jbossjbpm?lang=en)
-
-Quick Links
---------------------
-**Homepage:** http://jbpm.org/
-
-**Business Applications:** https://start.jbpm.org/
-
-**Documentation:** https://docs.jboss.org/jbpm/release/latestFinal/jbpm-docs/html_single/
-
-**JIRA:** https://issues.jboss.org/projects/JBPM/summary 
-
-About jBPM
---------------------
-**jBPM** is a toolkit for building business applications to help automate business processes and decisions.
-
-**jBPM** can be used as standalone service or embedded in custom service. It does not mandate any of the frameworks to be used, it can be successfully used in
-   - traditional JEE applications - war/ear deployments
-   - SpringBoot or Thorntail (formerly known as WildFly Swarm) - uberjar deployments
-   - standalone java programs
-   
-   
-<p align="center"><img src="docsimg/jbpm_rotating.gif"></p>
-   
-**jBPM** is open source software, released under the Apache Software License. It is written in 100% pure Java™, runs on any JVM and is available in the Maven Central repository too.
-
-Building from source
---------------------
-
-1. Check out the source:
-```
-git clone git@github.com:kiegroup/jbpm.git
-```
-
-If you don't have a GitHub account use this command instead:
-```
-git clone https://github.com/kiegroup/jbpm.git jbpm
-```
-
-2. Build with Maven:
-```
-cd jbpm
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p align="center" dir="auto"><a target="_blank" rel="noopener noreferrer" href="/kiegroup/jbpm/blob/main/docsimg/jbpm_logo_450px.png"><img width="55%" height="55%" src="/kiegroup/jbpm/raw/main/docsimg/jbpm_logo_450px.png" style="max-width: 100%;"></a></p>
+<p dir="auto">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://github.com/kiegroup/jbpm/stargazers"><img src="https://camo.githubusercontent.com/38ffd5adc1f0896d49753d5bfc686916666e1c3b15c816b4678a8ea5b19f3799/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f6b696567726f75702f6a62706d2e737667" alt="GitHub 之星" data-canonical-src="https://img.shields.io/github/stars/kiegroup/jbpm.svg" style="max-width: 100%;"></a>
+<a href="https://github.com/kiegroup/jbpm/network/members"><img src="https://camo.githubusercontent.com/71fdb7db10874ad2926656f2d2681b4ffb2d78404565ea89da1c7e8e842a4c50/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f6b696567726f75702f6a62706d2e737667" alt="GitHub 分叉" data-canonical-src="https://img.shields.io/github/forks/kiegroup/jbpm.svg" style="max-width: 100%;"></a>
+<a href="https://github.com/kiegroup/jbpm/pulls"><img src="https://camo.githubusercontent.com/66bccac9b856d26e01bfeea52c96144d677ef894e393e1e8fb42c62d0903d37b/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d70722f6b696567726f75702f6a62706d2e7376673f7374796c653d666c61742d737175617265" alt="请求请求" data-canonical-src="https://img.shields.io/github/issues-pr/kiegroup/jbpm.svg?style=flat-square" style="max-width: 100%;"></a>
+<a href="https://github.com/kiegroup/jbpm/graphs/contributors"><img src="https://camo.githubusercontent.com/e5bf8b7ab2a5bfeb40a45b53131e7ec14f95d4cdbafd5386217f097c0a064717/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f636f6e7472696275746f72732f6b696567726f75702f6a62706d2e7376673f7374796c653d666c61742d737175617265" alt="贡献者" data-canonical-src="https://img.shields.io/github/contributors/kiegroup/jbpm.svg?style=flat-square" style="max-width: 100%;"></a>
+<a href="https://github.com/kiegroup/jbpm/blob/main/LICENSE-ASL-2.0.txt"><img src="https://camo.githubusercontent.com/50fd57bd327c7e410b28cc90669bd8fecadde51f02f0beb516c60afd5191a485/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f6b696567726f75702f6a62706d2e737667" alt="执照" data-canonical-src="https://img.shields.io/github/license/kiegroup/jbpm.svg" style="max-width: 100%;"></a>
+<a href="https://twitter.com/jbossjbpm?lang=en" rel="nofollow"><img src="https://camo.githubusercontent.com/196742b5c6bf900584bfa4d24e809b14841af1e5f11285aa8a2eb5941b416e64/68747470733a2f2f696d672e736869656c64732e696f2f747769747465722f666f6c6c6f772f6a626f73736a62706d2e7376673f6c6162656c3d466f6c6c6f77267374796c653d736f6369616c" alt="推特关注" data-canonical-src="https://img.shields.io/twitter/follow/jbossjbpm.svg?label=Follow&amp;style=social" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快速链接</font></font></h2><a id="user-content-quick-links" class="anchor" aria-label="永久链接：快速链接" href="#quick-links"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主页： http: </font></font></strong> <a href="http://jbpm.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//jbpm.org/</font></font></a></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">商业应用程序： https: </font></font></strong> <a href="https://start.jbpm.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//start.jbpm.org/</font></font></a></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档：</font></font></strong> <a href="https://docs.jboss.org/jbpm/release/latestFinal/jbpm-docs/html_single/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https ://docs.jboss.org/jbpm/release/latestFinal/jbpm-docs/html_single/</font></font></a></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JIRA： https: </font></font></strong> <a href="https://issues.jboss.org/projects/JBPM/summary" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//issues.jboss.org/projects/JBPM/summary</font></font></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于 jBPM</font></font></h2><a id="user-content-about-jbpm" class="anchor" aria-label="永久链接：关于 jBPM" href="#about-jbpm"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jBPM</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个用于构建业务应用程序以帮助自动化业务流程和决策的工具包。</font></font></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jBPM</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以用作独立服务或嵌入到自定义服务中。它不强制要求使用任何框架，它可以成功地用于</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">传统 JEE 应用程序 - 战争/耳朵部署</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SpringBoot 或 Thorntail（以前称为 WildFly Swarm）- uberjar 部署</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">独立的java程序</font></font></li>
+</ul>
+<p align="center" dir="auto"><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer" href="/kiegroup/jbpm/blob/main/docsimg/jbpm_rotating.gif" data-target="animated-image.originalLink"><img src="/kiegroup/jbpm/raw/main/docsimg/jbpm_rotating.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
+      <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
+        <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://github.com/kiegroup/jbpm/blob/main/docsimg/jbpm_rotating.gif" target="_blank">
+          
+        <span data-target="animated-image.imageContainer">
+            <img data-target="animated-image.replacedImage" alt="jbpm_rotating.gif" class="AnimatedImagePlayer-animatedImage" src="https://github.com/kiegroup/jbpm/raw/main/docsimg/jbpm_rotating.gif" style="display: block; opacity: 1;">
+          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="480" height="214"></canvas></span></a>
+        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play jbpm_rotating.gif" hidden=""></button>
+        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
+          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play jbpm_rotating.gif">
+            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
+            </path></svg>
+            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
+              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
+            </svg>
+          </button>
+          <a data-target="animated-image.openButton" aria-label="Open jbpm_rotating.gif in new window" class="AnimatedImagePlayer-button" href="https://github.com/kiegroup/jbpm/blob/main/docsimg/jbpm_rotating.gif" target="_blank">
+            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
+            </svg>
+          </a>
+        </span>
+      </span></animated-image></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jBPM</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是开源软件，根据 Apache 软件许可证发布。它是用 100% 纯 Java™ 编写的，可以在任何 JVM 上运行，并且也可以在 Maven 中央存储库中使用。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从源头构建</font></font></h2><a id="user-content-building-from-source" class="anchor" aria-label="永久链接：从源代码构建" href="#building-from-source"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看来源：</font></font></li>
+</ol>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>git clone git@github.com:kiegroup/jbpm.git
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="git clone git@github.com:kiegroup/jbpm.git" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您没有 GitHub 帐户，请改用以下命令：</font></font></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>git clone https://github.com/kiegroup/jbpm.git jbpm
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="git clone https://github.com/kiegroup/jbpm.git jbpm" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<ol start="2" dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 Maven 构建：</font></font></li>
+</ol>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>cd jbpm
 mvn clean install -DskipTests
-```
-Contributing to jBPM
---------------------
-All contributions are welcome! Before you start please read the [Developing Drools and jBPM](https://github.com/kiegroup/droolsjbpm-build-bootstrap/blob/main/README.md) guide.
-
-Getting Help
---------------------
-
-Follow [this link](http://jbpm.org/community/getHelp.html) to with information on how to:
-- **post questions** on user groups
-- **report** and **create** issues
-- **chat** with jBPM devs and community
-- get **customer support**
-
-Guides
---------------------
-There is alot of good information (and books) available on jBPM and it's hard to list them all. Here are some of 
-the most notable ones for quick reference:
-
-- [Getting started - Using Docker](https://www.jbpm.org/learn/gettingStartedUsingDocker.html) - great resource of getting started guides and videos using Docker image distribution
-- [Getting started - Using Single Zip Distribution](https://www.jbpm.org/learn/gettingStartedUsingSingleZipDistribution.html) - great resource of getting started guides and videos using Single Zip Distribution
-- [Accelerate your business](http://mswiderski.blogspot.com/) blog - includes a ton of great info from the jBPM devs
-- [Slideshare Presentations](https://www.slideshare.net/krisverlaenen/presentations) - includes many jBPM presentations and slides
-- [start.jBPM.org](https://start.jbpm.org/) - site where you can start building your jBPM Business Applications
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="cd jbpm
+mvn clean install -DskipTests" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为 jBPM 做出贡献</font></font></h2><a id="user-content-contributing-to-jbpm" class="anchor" aria-label="永久链接：为 jBPM 做出贡献" href="#contributing-to-jbpm"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">欢迎所有贡献！在开始之前，请阅读</font></font><a href="https://github.com/kiegroup/droolsjbpm-build-bootstrap/blob/main/README.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发 Drools 和 jBPM</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">指南。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">寻求帮助</font></font></h2><a id="user-content-getting-help" class="anchor" aria-label="永久链接：获取帮助" href="#getting-help"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请点击</font></font><a href="http://jbpm.org/community/getHelp.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此链接</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，获取有关如何执行以下操作的信息：</font></font></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在用户组中</font><strong><font style="vertical-align: inherit;">发布问题</font></strong></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">报告</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题</font></font></li>
+<li><strong><font style="vertical-align: inherit;"></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与 jBPM 开发人员和社区</font><strong><font style="vertical-align: inherit;">聊天</font></strong></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获得</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">客户支持</font></font></strong></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">指南</font></font></h2><a id="user-content-guides" class="anchor" aria-label="永久链接：指南" href="#guides"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jBPM 上有很多好的信息（和书籍），但很难将它们全部列出。以下是一些最值得注意的供快速参考：</font></font></p>
+<ul dir="auto">
+<li><a href="https://www.jbpm.org/learn/gettingStartedUsingDocker.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门 - 使用 Docker</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 使用 Docker 镜像分发的入门指南和视频的绝佳资源</font></font></li>
+<li><a href="https://www.jbpm.org/learn/gettingStartedUsingSingleZipDistribution.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门 - 使用 Single Zip Distribution</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 使用 Single Zip Distribution 的入门指南和视频的丰富资源</font></font></li>
+<li><a href="http://mswiderski.blogspot.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加速您的商业</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客 - 包含来自 jBPM 开发人员的大量重要信息</font></font></li>
+<li><a href="https://www.slideshare.net/krisverlaenen/presentations" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Slideshare 演示文稿</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 包括许多 jBPM 演示文稿和幻灯片</font></font></li>
+<li><a href="https://start.jbpm.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">start.jBPM.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 您可以开始构建 jBPM 业务应用程序的站点</font></font></li>
+</ul>
+</article></div>
