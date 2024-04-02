@@ -1,4 +1,4 @@
-<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p align="center" dir="auto"><a target="_blank" rel="noopener noreferrer" href="/kiegroup/jbpm/blob/main/docsimg/jbpm_logo_450px.png"><img width="55%" height="55%" src="/kiegroup/jbpm/raw/main/docsimg/jbpm_logo_450px.png" style="max-width: 100%;"></a></p>
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p align="center" dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/kiegroup/jbpm/blob/main/docsimg/jbpm_logo_450px.png"><img width="55%" height="55%" src="https://github.com/kiegroup/jbpm/raw/main/docsimg/jbpm_logo_450px.png" style="max-width: 100%;"></a></p>
 <p dir="auto">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://github.com/kiegroup/jbpm/stargazers"><img src="https://camo.githubusercontent.com/38ffd5adc1f0896d49753d5bfc686916666e1c3b15c816b4678a8ea5b19f3799/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f6b696567726f75702f6a62706d2e737667" alt="GitHub 之星" data-canonical-src="https://img.shields.io/github/stars/kiegroup/jbpm.svg" style="max-width: 100%;"></a>
 <a href="https://github.com/kiegroup/jbpm/network/members"><img src="https://camo.githubusercontent.com/71fdb7db10874ad2926656f2d2681b4ffb2d78404565ea89da1c7e8e842a4c50/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f6b696567726f75702f6a62706d2e737667" alt="GitHub 分叉" data-canonical-src="https://img.shields.io/github/forks/kiegroup/jbpm.svg" style="max-width: 100%;"></a>
@@ -19,31 +19,8 @@
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SpringBoot 或 Thorntail（以前称为 WildFly Swarm）- uberjar 部署</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">独立的java程序</font></font></li>
 </ul>
-<p align="center" dir="auto"><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer" href="/kiegroup/jbpm/blob/main/docsimg/jbpm_rotating.gif" data-target="animated-image.originalLink"><img src="/kiegroup/jbpm/raw/main/docsimg/jbpm_rotating.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
-      <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
-        <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://github.com/kiegroup/jbpm/blob/main/docsimg/jbpm_rotating.gif" target="_blank">
-          
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="jbpm_rotating.gif" class="AnimatedImagePlayer-animatedImage" src="https://github.com/kiegroup/jbpm/raw/main/docsimg/jbpm_rotating.gif" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="480" height="214"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play jbpm_rotating.gif" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play jbpm_rotating.gif">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open jbpm_rotating.gif in new window" class="AnimatedImagePlayer-button" href="https://github.com/kiegroup/jbpm/blob/main/docsimg/jbpm_rotating.gif" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></p>
+<p align="center" dir="auto"><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer" href="https://github.com/kiegroup/jbpm/blob/main/docsimg/jbpm_rotating.gif" data-target="animated-image.originalLink"><img src="https://github.com/kiegroup/jbpm/raw/main/docsimg/jbpm_rotating.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
+       
 <p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jBPM</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是开源软件，根据 Apache 软件许可证发布。它是用 100% 纯 Java™ 编写的，可以在任何 JVM 上运行，并且也可以在 Maven 中央存储库中使用。</font></font></p>
 <div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从源头构建</font></font></h2><a id="user-content-building-from-source" class="anchor" aria-label="永久链接：从源代码构建" href="#building-from-source"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 <ol dir="auto">
